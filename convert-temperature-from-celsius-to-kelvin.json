@@ -1,0 +1,19 @@
+{
+  "slug": "convert-temperature-from-celsius-to-kelvin",
+  "title": "Convert Temperature From Celsius To Kelvin",
+  "java": "import java.lang.*;\n\npublic class ConvertTemperatureFromCelsiusToKelvin {\n\n    public static void main(String[] args) {\n        double celsius = -40;\n        double kelvin = celsiusToKelvin(celsius);\n        System.out.println(\"Output (K) : \" + kelvin);\n    }\n\n    public static double celsiusToKelvin(double celsius) {\n        return celsius + 273.15;\n    }\n}\n",
+  "description": "\n## Write a program to convert temperature from celsius to kelvin\n\n```\r\nInput  ( C ) : -40\r\nOutput ( K ) : 233.15\r\n```\n\n---\n",
+  "trackId": 5541,
+  "lastUpdated": "2024-03-23T18:09:03Z",
+  "contributors": [
+    "nine03",
+    "harshraj8843"
+  ],
+  "python": "# program to convert celsius to kelvin\n\nC = input(\"Input (C) : \")\n\nif float(C) > -273.15:\n    K = (float(C) + 273.15)\n\n    print(f\"Output (K) : {K}\")\n\nelse:\n    print(\"Error: Invalid value provided for Celsius\")\n",
+  "r": "celsius = -40\nkelvin = (celsius + 273.15)\ncat(\"Kelvin: \", kelvin)\n",
+  "languages": [
+    "java",
+    "python",
+    "r"
+  ]
+}
