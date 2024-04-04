@@ -11,7 +11,6 @@ octalToBinaryDigit '5' = "101"
 octalToBinaryDigit '6' = "110"
 octalToBinaryDigit '7' = "111"
 octalToBinaryDigit _   = error "Invalid octal digit"
-
 -- Convert an octal number string to binary
 octalToBinary :: String -> String
 octalToBinary = concatMap octalToBinaryDigit
